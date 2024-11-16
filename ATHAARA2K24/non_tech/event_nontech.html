@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Slider</title>
+    <link rel="stylesheet" href="event_nontech.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="item">
+            <h1>SINGING</h1>
+            <img src="../images/img01.jpeg" alt="Singing" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="1">More Details</button>
+        </div>
+        <div class="item">
+            <h1>TREASURE HUNT</h1>
+            <img src="../images/img02.jpeg" alt="Treasure Hunt" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="2">More Details</button>
+        </div>
+        <div class="item">
+            <h1>FACE PAINTING</h1>
+            <img src="../images/img07.jpeg" alt="Face Painting" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="3">More Details</button>
+        </div>
+        <div class="item">
+            <h1>CRAFT FROM ART</h1>
+            <img src="../images/img04.jpeg" alt="Craft From Art" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="4">More Details</button>
+        </div>
+        <div class="item">
+            <h1>STYLE ICON</h1>
+            <img src="../images/img05.jpeg" alt="Style Icon" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="5">More Details</button>
+        </div>
+        <div class="item">
+            <h1>MIME</h1>
+            <img src="../images/img06.jpeg" alt="Mime" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="6">More Details</button>
+        </div>
+        <div class="item">
+            <h1>MINI MASTERPIECE</h1>
+            <img src="../images/img24.jpeg" alt="Mini Masterpiece" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="7">More Details</button>
+        </div>
+        <div class="item">
+            <h1>PHOTOGRAPHY</h1>
+            <img src="../images/img08.jpeg" alt="Photography" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="8">More Details</button>
+        </div>
+        <div class="item">
+            <h1>QUIZ</h1>
+            <img src="../images/img09.jpeg" alt="Connection" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="9">More Details</button>
+        </div>
+        <div class="item">
+            <h1>FIRELESS COOKING</h1>
+            <img src="../images/img10.jpeg" alt="Fireless Cooking" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="10">More Details</button>
+        </div>
+        <div class="item">
+            <h1>YOGA</h1>
+            <img src="../images/img11.jpeg" alt="Yoga" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="11">More Details</button>
+        </div>
+        
+        <!-- Navigation buttons -->
+        <button id="next">></button>
+        <button id="prev"><</button>
+    </div>
+
+    <!-- Modal structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="modal-title">Rules and Regulations</h2>
+            <div id="modal-content">Your detailed content goes here...</div>
+            <div id="modal-themes"></div> <!-- Added for STYLE ICON themes -->
+            <ul id="modal-rules"></ul>
+        </div>
+    </div>
+
+    <script src="event_nontech.js"></script>
+</body>
+</html>

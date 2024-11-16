@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Slider</title>
+    <link rel="stylesheet" href="event_tech.css">
+</head>
+
+<body>
+
+
+   
+    <div class="slider">
+        <div class="item">
+            <h1>WEBSITE CREATION</h1>
+            <img src="../images/img12.jpeg" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="1">More Details</button>
+        </div>
+        <div class="item">
+            <h1>DEBUGGING</h1>
+            <img src="../images/img13.jpeg" alt="Debugging" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="2">More Details</button>
+        </div>
+        <div class="item">
+            <h1>IDEATHON</h1>
+            <img src="../images/img14.jpeg" alt="Run with Code" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="3">More Details</button>
+        </div>
+        <div class="item">
+            <h1>PAPER PRESENTATION</h1>
+            <img src="../images/img15.jpeg" alt="Paper Presentation" style="width: 100%; height: 70%;">
+            <button class="more-details-btn" data-slide="4">More Details</button>
+        </div>
+        <div class="item">
+            <h1>HARDWARE ASSEMBLY</h1>
+            <img src="../images/img16.jpeg" alt="Hardware Assembly" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="5">More Details</button>
+        </div>
+        
+        <div class="item">
+            <h1>LOGO CREATION</h1>
+            <img src="../images/img18.jpeg" alt="Logo Creation" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="6">More Details</button>
+        </div>
+
+        <div class="item">
+            <h1>CODING CLUB</h1>
+            <img src="../images/coding club.jpeg" alt="Logo Creation" style="width: 100%; height: auto;">
+            <button class="more-details-btn" data-slide="7">More Details</button>
+        </div>
+        <!-- Navigation buttons -->
+        <button id="next">></button>
+        <button id="prev"><</button>
+    </div>
+
+    <!-- Modal structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="modal-title">Rules and Regulations</h2>
+            <p id="modal-content">Your detailed content goes here...</p>
+            <ul id="modal-rules"></ul>
+        </div>
+    </div>
+
+    <script src="event_tech.js"></script>
+</body>
+</html>
